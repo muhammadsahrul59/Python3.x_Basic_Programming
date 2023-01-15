@@ -1,0 +1,1 @@
+data = "Faqihza ganteng banget"
