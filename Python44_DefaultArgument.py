@@ -38,4 +38,8 @@ def fungsi(input1=1, input2=2, input3=3, input4=4):
     return hasil
 
 print(fungsi())
+<<<<<<< HEAD
 print(fungsi(input3=10))
+=======
+print(fungsi(input3=10))
+>>>>>>> 0015d5eccd6a3dfcc383bd0ef7dbe419899a5a8d
