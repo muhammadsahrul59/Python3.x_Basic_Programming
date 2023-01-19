@@ -1,0 +1,1 @@
+print(f"value __name__ in function.py = '{__name__}'")
