@@ -1,7 +1,7 @@
 ## read external file
 
 print(3*"=", "Read file txt", 3*"=")
-file = open("d:\python\PythonDasar\Python60_OpenAndWith\data.txt",mode="r")
+file = open("d:\python\PythonDasar\Python60 - Open&With\data.txt",mode="r")
 
 print(f"status read : {file.readable()}")
 print(f"status write : {file.writable()}")
@@ -24,7 +24,7 @@ print(f"is the file closed? : {file.closed}")
 
 print("\n",3*"=", "Read file txt with 'with'", 3*"=")
 
-with open("d:\python\PythonDasar\Python60_OpenAndWith\data.txt",mode="r") as file:
+with open("d:\python\PythonDasar\Python60 - Open&With\data.txt",mode="r") as file:
     content = file.readline()
     print(content,end="")
 print(f"is the file closed? : {file.closed}")
